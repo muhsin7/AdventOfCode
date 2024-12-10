@@ -57,6 +57,7 @@ else
   cp ./template.py "$DAY_DIR/day$DAY.py" 2>/dev/null || echo "No template.py found to copy."
   echo "Creating input.txt in $DAY_DIR..."
   touch "$DAY_DIR/input.txt"
+  touch "$DAY_DIR/debuginput.txt"
 fi
 
 # Change to the day directory
